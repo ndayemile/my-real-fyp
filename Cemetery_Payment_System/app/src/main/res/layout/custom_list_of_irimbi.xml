@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="Izina :"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="Urwego :"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TxtIzina"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="Ruso"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/TxtCategory"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="N001"
+            android:textStyle="italic"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/touch_icon_ID"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/touch_icon" />
+    </LinearLayout>
+
+</LinearLayout>

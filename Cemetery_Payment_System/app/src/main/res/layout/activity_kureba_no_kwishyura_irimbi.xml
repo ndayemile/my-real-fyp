@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".KurebaNoKwishyuraIrimbiActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:src="@drawable/ic_baseline_location_city_24" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/TxtIZINA"
+            android:textSize="24dp"
+            android:text="sample"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/CATEGORY"
+            android:textSize="24dp"
+            android:text="URWEGO"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/price"
+            android:textSize="24dp"
+            android:text="2000 rwf"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/DISTRICT"
+            android:textSize="24dp"
+            android:text="GASABO"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/SECTOR"
+            android:textSize="24dp"
+            android:text="RUSORORO"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/CELL"
+            android:textSize="24dp"
+            android:text="KABUGA I"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/VILLAGE"
+            android:textSize="24dp"
+            android:text="MUNINI"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/PayBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:text="Pay"/>
+    </LinearLayout>
+</LinearLayout>

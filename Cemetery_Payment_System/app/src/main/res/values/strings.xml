@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cemetery Payment System</string>
+    <string name="aho_kwinjirira">Injira Hano</string>
+    <string name="aho_Kwiyandikisha">Kwiyandikisha</string>
+    <string name="injiza_izina">Injiza Izina</string>
+    <string name="ijambo_banga">Ijambo Banga</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prefLoginState">loginstate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_details">
+       Murakaza neza kuri Cemetery Payement Mobile App ni Application igufasha
+        kwishyura irimbi ako kanya ukoresheje MTN mobile money cyangwa ugakoresha
+        Airtel-Tigo money.
+
+    </string>
+</resources>
